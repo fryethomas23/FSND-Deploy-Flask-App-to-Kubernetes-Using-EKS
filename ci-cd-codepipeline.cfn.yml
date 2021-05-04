@@ -24,7 +24,11 @@ Parameters:
 
   GitBranch:
     Type: String
+<<<<<<< HEAD
     Default: master
+=======
+    Default: thomas
+>>>>>>> thomas
     Description: GitHub git repository branch - change triggers a new build
     MinLength: 1
     MaxLength: 100
@@ -40,7 +44,11 @@ Parameters:
 
   GitHubUser:
     Type: String
+<<<<<<< HEAD
     Default: SudKul
+=======
+    Default: fryethomas23
+>>>>>>> thomas
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
