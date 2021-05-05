@@ -19,10 +19,7 @@ def client():
     client = main.APP.test_client()
 
     yield client
-<<<<<<< HEAD
-=======
     assert False
->>>>>>> thomas
 
 
 
